@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button#encriptar {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button#desencriptar {
+  background-color: #f44336;
+  color: white;
+}
+
+button#copiar {
+  margin-top: 20px;
+  background-color: #008CBA;
+  color: white;
+}
+
+button:hover, button:focus {
+  opacity: 0.8;
+}
+
+#resultado {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+}
